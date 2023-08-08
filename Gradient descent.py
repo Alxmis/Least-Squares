@@ -87,5 +87,4 @@ for n in range(10, 101, 10):
             for j in range(n-1):
                 s += points[i][j] * coefficients[j]
             s += coefficients[-1]
-
-    
+ 
