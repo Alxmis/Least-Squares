@@ -52,4 +52,6 @@ for N in range(10, 100 + 10, 10):
 file.close()
 
 plt.plot(N_array, clock, "-om")
+plt.ylabel("Error")
+plt.xlabel("Dimension")
 plt.show()
